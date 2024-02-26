@@ -5,7 +5,7 @@
 
 
 import openai
-openai.api_key = "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"
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 
 # In[7]:
